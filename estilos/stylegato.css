@@ -111,6 +111,7 @@ td > a > div  {
     text-decoration: none;
     margin-right: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 7px 1px rgba(48, 48, 48, 0.219);
     
 }
 td > a{
@@ -154,6 +155,9 @@ td > a > div:hover{
     width: 800px;
     text-align: center;
     margin: auto;
+    margin-bottom: 100px;
+    height: 490px;
+    box-shadow: 0px 0px 7px 1px rgba(48, 48, 48, 0.178);
 }
 
 #video{
@@ -171,4 +175,50 @@ td > a > div:hover{
     color: #8364D9;
     text-align: center;
     margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(204, 204, 204); 
+    
+    bottom: 0;
+    width: 100%;
+    max-width: 950px;
+    min-width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#separa{
+    width: 3px;
+    background-color: rgba(138, 138, 138, 0.856);
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+div#rede{
+    display: flex;
+}
+span{
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer div{
+    margin: auto;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+    margin: 0px;
 }
