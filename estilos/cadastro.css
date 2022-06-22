@@ -137,7 +137,8 @@ p#pequeno{
     margin-top: 20px;
     background-color: white;
     width: 300px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 10px 10px ;
+    box-shadow: 0px 0px 7px 1px rgba(48, 48, 48, 0.123);
 }
 
 main{
@@ -200,6 +201,7 @@ footer{
     height: 80px;
     display: flex;
     justify-content: space-around;
+    align-self: flex-end;;
 }
 
 #separa{
